@@ -1,0 +1,17 @@
+{
+  "checkouts": [
+    {"id":"co-1042","customer_id":"cust-88","amount_cents":12900,"currency":"USD"},
+    {"id":"co-1043","customer_id":"cust-91","amount_cents":4500,"currency":"USD"}
+  ],
+  "fulfillments": [
+    {"checkout_id":"co-1042","status":"shipped","carrier_ref":"trk-771"},
+    {"checkout_id":"co-1043","status":"packing","carrier_ref":""}
+  ],
+  "receipts": [
+    {"checkout_id":"co-1042","receipt_id":"rcpt-204","issued_at":"2026-09-06T20:10:00Z"}
+  ],
+  "order_updates": [
+    {"checkout_id":"co-1042","status":"paid","changed_at":"2026-09-06T20:09:00Z"},
+    {"checkout_id":"co-1042","status":"shipped","changed_at":"2026-09-06T21:30:00Z"}
+  ]
+}
